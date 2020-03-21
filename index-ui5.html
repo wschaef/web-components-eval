@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Web Components Evaluation</title>
+  <script type="module" src="./node_modules/@ui5/webcomponents/dist/Button.js"></script>
+  <script type="module">
+    // Import the Elix components we want to use.
+    // import Button from './node_modules/elix/define/Button.js';
+
+  </script>
+
+  <style>
+    elix-button{
+      color:red;
+    }
+  </style>
+
+</head>
+
+<body>
+  <ui5-button onclick="alert('Button')">
+    My Button
+  </ui5-button>
+</body>
+</html>
